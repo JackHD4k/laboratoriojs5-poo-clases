@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Clases</title>
+</head>
+<body>
+  <header>
+    <h1>Clases de JavaScript</h1>
+  </header>
+  <main>
+    <form id="empleadoFormulario">
+      <label for="code">Código</label>
+      <input type="number" id="code" name="code" placeholder="Código" required>
+      <label for="name">Nombre</label>
+      <input type="text" id="name" name="name" placeholder="Nombre" required>
+      <label for="surname">Apellidos</label>
+      <input type="text" id="surname" name="surname" placeholder="Apellidos" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Email" required>
+      <label for="cargo">Cargo</label>
+      <select name="cargo" id="cargo">
+        <option value="Jefe">Jefe</option>
+        <option value="Analista">Analista</option>
+        <option value="Programador">Programador</option>
+        <option value="Soporte">Soporte</option>
+        <option value="Asistente">Asistente</option>
+      </select>
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
